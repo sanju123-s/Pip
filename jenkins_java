@@ -22,7 +22,7 @@ pipeline {
         stage('Run') {
             steps {
                 echo 'Running java program...'
-                sh 'first java'
+                sh 'java first'
             }
         }
     }

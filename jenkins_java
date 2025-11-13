@@ -15,14 +15,14 @@ pipeline {
         stage('Compile') {
             steps {
                 echo 'Compiling Java program...'
-                sh 'javac Helloworld.java'
+                sh 'javac first.java'
             }
         }
 
         stage('Run') {
             steps {
                 echo 'Running java program...'
-                sh 'java Helloworld'
+                sh 'java first'
             }
         }
     }
